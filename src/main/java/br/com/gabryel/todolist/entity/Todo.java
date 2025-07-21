@@ -13,7 +13,7 @@ public class Todo {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String nome;
-	private String descreicao;
+	private String descricao;
 	private boolean realizado;
 	private int prioridade;
 	
@@ -30,11 +30,11 @@ public class Todo {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public String getDescreicao() {
-		return descreicao;
+	public String getDescricao() {
+		return descricao;
 	}
-	public void setDescreicao(String descreicao) {
-		this.descreicao = descreicao;
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
 	}
 	public boolean isRealizado() {
 		return realizado;
